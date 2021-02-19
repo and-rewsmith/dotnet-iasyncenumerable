@@ -27,9 +27,8 @@ namespace dotnet_iasyncenumerable
 
         public async Task Run()
         {
-            bool hasValue = await this.Enumerator.MoveNextAsync();
-
-            if (hasValue)
+            IAsyncEnumerator<string> enumerator = this.Enumerator;
+            while (await enumerator.MoveNextAsync())
             {
                 Console.WriteLine(this.Enumerator.Current);
             }
