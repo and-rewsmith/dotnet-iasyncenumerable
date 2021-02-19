@@ -20,7 +20,7 @@ namespace dotnet_iasyncenumerable
             this.enumerator = new CustomEnumerator(input);
         }
 
-        public class CustomEnumerator : IAsyncEnumerator<string>
+        public struct CustomEnumerator : IAsyncEnumerator<string>
         {
             string current;
             string input;
