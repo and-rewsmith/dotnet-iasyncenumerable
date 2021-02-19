@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/azureuser/Documents/projects/dotnet-iasyncenumerable/dotnet-iasyncenumerable.csproj": {}
+  },
+  "projects": {
+    "/home/azureuser/Documents/projects/dotnet-iasyncenumerable/dotnet-iasyncenumerable.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/azureuser/Documents/projects/dotnet-iasyncenumerable/dotnet-iasyncenumerable.csproj",
+        "projectName": "dotnet-iasyncenumerable",
+        "projectPath": "/home/azureuser/Documents/projects/dotnet-iasyncenumerable/dotnet-iasyncenumerable.csproj",
+        "packagesPath": "/home/azureuser/.nuget/packages/",
+        "outputPath": "/home/azureuser/Documents/projects/dotnet-iasyncenumerable/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/azureuser/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
